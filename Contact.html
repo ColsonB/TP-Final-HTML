@@ -5,16 +5,47 @@
 </head>
 
 <body>
+    
+    
+    <link rel="stylesheet" href="TPHTMLFINAL.css"> 
+ <form>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="Accueil.html">Accueil</a>
+                <li><a href="Chars.html">L'histoire des chars</a>
+                    <li id="deroulant"><a href="#">CV &ensp;</a>
+                    <ul id="sous">
+                        <li><a href="CVFR.html">CV Version Française</a></li>
+                        <li><a href="CVEN.html">CV Version Anglaise</a></li>
+                    </ul>
+                <li><a href="Contact.html">Contact</a></li>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="Nom">
+    </div>
+    
+    <div>
+        <label for="mail">Email :</label>
+        <input type="email" id="mail" name="Email">
+    </div>
+    
+    <div>
+        <label for="msg">Message :</label>
+        <textarea id="msg" name="Message"></textarea>
+    </div>
 
+    <div class="button">
+        <button type="submit">Envoyer le message</button>
+    </div>
 
-
-
-
+ </form>
 
 </body>
-
-
-
-
 
 </html>
