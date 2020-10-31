@@ -34,12 +34,9 @@
 header, footer {
     width: 100%;
     padding: 20px 0px;
-    box-shadow: 0px 0px 15px #333; /* box-shadow sert à créer un boite avec une ombre autour de celle-ci */
     text-align: center;
 }
-footer {
-    border-top: 2px solid #fff; /* border-top correspond à la bordure qui ce trouve en haut */
-}
+
 #menu {
     background-color:black; /* background-color sert à mettre un couleur en arriére plan */
     width:1430px;
@@ -55,7 +52,7 @@ footer {
 
 .présentation {
     text-align:center;              
-    font-size:16px; /* font-size permet de définir la taille de fonte utilisé pour le texte */
+    font-size:16px; /* font-size permet de définir la taille de fonte utilisée pour le texte */
     margin:5%;
 }
 
@@ -108,7 +105,7 @@ nav li {
     margin:0px;
     padding:0px;
     text-align:center;
-    line-height:40px; /* line-height permet de définir la hauteur de la boite d'un ligne */
+    line-height:40px; /* line-height permet de définir la hauteur de la boite d'une ligne */
 }
 
 nav li a {
@@ -118,13 +115,6 @@ nav ul li {
     float:left; 
     width:25%;
     text-align:center;
-}
-
-nav ul::after 
-{
-    content:"";
-    display:table;
-    clear:both;
 }
 
 nav a {
@@ -171,6 +161,7 @@ nav > ul li:hover #sous {
     width: 100%;
     text-align: justify;
     padding: 12px;
+    
 }
 
 .ww2 {
@@ -201,13 +192,11 @@ form {
     margin: 0 auto;
     height: 100%;
     padding: 1em;
-    border: 1px solid #000;
-    border-radius: 1em;
     text-align: center;
   }
   
 form div + div {
-    margin-top: 1em; /* margin-top correspond à la marge ce trouvant à gauche */
+    margin-top: 1em; /* margin-top correspond à la marge se trouvant à gauche */
   }
   
 label {
@@ -223,21 +212,22 @@ input, textarea {
     border: 1px solid #999; /* border sert à créer une bordure */
   }
   
-input:focus, textarea:focus {
-    border-color: #000; /* border-color correspond à la couleur de la bordure */
-  }
-  
 textarea {
     vertical-align: top;
     height: 10em;
   }
   
 .button {
-    padding-left: 90px; /* padding permet de définir les différents écarts de remplissage ce trouvant à gauche */
+    padding-left: 90px; /* padding permet de définir les différents écarts de remplissage se trouvant à gauche */
   }
   
 button {
-    margin-left: .5em; /* margin-left correspond à la marge ce trouvant à gauche */
+    margin-left: .5em; /* margin-left correspond à la marge se trouvant à gauche */
   }
 
+html {
+    background-image:url(https://images6.alphacoders.com/845/845878.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+} 
 
