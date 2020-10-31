@@ -1,7 +1,7 @@
 .présentation1{
-    text-align:center; 
+    text-align:center; /* text-align:center; sert à centrer le texte sur la page web */
     font-size:16px;
-    margin:5%;
+    margin:5%; /* margin correspond à la marge */
 }
 
 .personalprofil{  
@@ -34,33 +34,28 @@
 header, footer {
     width: 100%;
     padding: 20px 0px;
-    box-shadow: 0px 0px 15px #333;
+    box-shadow: 0px 0px 15px #333; /* box-shadow sert à créer un boite avec une ombre autour de celle-ci */
     text-align: center;
 }
 footer {
-    border-top: 2px solid #fff;
+    border-top: 2px solid #fff; /* border-top correspond à la bordure qui ce trouve en haut */
 }
 #menu {
-    background-color:black;
+    background-color:black; /* background-color sert à mettre un couleur en arriére plan */
     width:1430px;
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
+    display:flex; /* display sert à définir le type d'affichage */
+    justify-content:center; /* justify-content permet de répartir l'espace */
+    flex-direction:column; /* flex-direction permet de définir la place des éléments flexibles */
     height:50px;
 } 
 
 #menu1 {
-    text-align:left;
+    text-align:left; /* mettre le texte sur la gauche */
 } 
-
-.contacter {
-    text-align:right;
-    color: black;
-}
 
 .présentation {
     text-align:center;              
-    font-size:16px;
+    font-size:16px; /* font-size permet de définir la taille de fonte utilisé pour le texte */
     margin:5%;
 }
 
@@ -87,21 +82,21 @@ footer {
 
 * {
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; /* Caractére d'écriture */
 }
 
 nav {
     width:100%;
     margin:0 auto;
     background-color:black;
-    position:sticky;
-    top:0px;
-    opacity: 0px;
+    position:sticky; /* position permet de définir la position */
+    top:0px; /* top correspond au haut de la page */
+    opacity: 0px; /* opacity sert à rendre transparent un élément */
 }
 
 nav ul {
-    list-style-type: none;
-    padding:0px;
+    list-style-type: none; /* list-style-type permet de définir l'apparence de la puce d'un élément de la liste */
+    padding:0px; /* padding permet de définir les différents écarts de remplissage */
     margin:0px;
     background-color:white;
 }
@@ -113,15 +108,14 @@ nav li {
     margin:0px;
     padding:0px;
     text-align:center;
-    line-height:40px;
+    line-height:40px; /* line-height permet de définir la hauteur de la boite d'un ligne */
 }
 
 nav li a {
-    text-decoration:none;
     color: black;
 }
 nav ul li {
-    float:left;
+    float:left; 
     width:25%;
     text-align:center;
 }
@@ -191,6 +185,12 @@ nav > ul li:hover #sous {
     padding: 12px;
 }
 
+.conclusion {
+    width: 100%;
+    text-align: justify;
+    padding: 12px;
+}
+
 .présentationchars {
     width: 100%;
     padding: 12px;
@@ -207,7 +207,7 @@ form {
   }
   
 form div + div {
-    margin-top: 1em;
+    margin-top: 1em; /* margin-top correspond à la marge ce trouvant à gauche */
   }
   
 label {
@@ -220,11 +220,11 @@ input, textarea {
     font: 1em sans-serif;
     width: 300px;
     box-sizing: border-box;
-    border: 1px solid #999;
+    border: 1px solid #999; /* border sert à créer une bordure */
   }
   
 input:focus, textarea:focus {
-    border-color: #000;
+    border-color: #000; /* border-color correspond à la couleur de la bordure */
   }
   
 textarea {
@@ -233,11 +233,11 @@ textarea {
   }
   
 .button {
-    padding-left: 90px; 
+    padding-left: 90px; /* padding permet de définir les différents écarts de remplissage ce trouvant à gauche */
   }
   
 button {
-    margin-left: .5em;
+    margin-left: .5em; /* margin-left correspond à la marge ce trouvant à gauche */
   }
 
 
