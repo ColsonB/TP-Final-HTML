@@ -173,11 +173,22 @@ nav > ul li:hover #sous {
     background-color:RGBa(200,200,200,0.1);
 }
 
-.mark {
+.ww1 {
     width: 100%;
     text-align: justify;
     padding: 12px;
-    
+}
+
+.ww2 {
+    width: 100%;
+    text-align: justify;
+    padding: 12px;
+}
+
+.moderne {
+    width: 100%;
+    text-align: justify;
+    padding: 12px;
 }
 
 .présentationchars {
