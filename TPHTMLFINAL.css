@@ -4,41 +4,15 @@
     margin:5%; /* margin correspond à la marge */
 }
 
-.personalprofil{  
-    text-align:center; 
-    font-size:16px;
-    margin:5%; 
-}
-
-.educationandtraining { 
-    text-align:center; 
-    font-size:16px;
-    margin:5%;
-}
-
-.workexperience {
-    text-align:center; 
-    font-size:16px;
-    margin:5%;
-}
-.skilllanguage {
-    text-align:center; 
-    font-size:16px;
-    margin:5%;
-}
-.skillit {
-    text-align:center; 
-    font-size:16px;
-    margin:5%;
-}
 header, footer {
     width: 100%;
     padding: 20px 0px;
     text-align: center;
+    color:rgb(142, 152, 156)
 }
 
 #menu {
-    background-color:black; /* background-color sert à mettre un couleur en arriére plan */
+    background-color:#000; /* background-color sert à mettre un couleur en arriére plan */
     width:1430px;
     display:flex; /* display sert à définir le type d'affichage */
     justify-content:center; /* justify-content permet de répartir l'espace */
@@ -50,30 +24,16 @@ header, footer {
     text-align:left; /* mettre le texte sur la gauche */
 } 
 
-.présentation {
-    text-align:center;              
-    font-size:16px; /* font-size permet de définir la taille de fonte utilisée pour le texte */
-    margin:5%;
-}
-
 .expérienceprofessionnelles {  
     text-align:center;             
     font-size: 16px;
 }
 
-.formations { 
+.cv { 
     text-align:center;
     font-size: 16px;
     display:flex;                   
     justify-content:center;         
-    flex-direction:column;
-}
-
-.compétences {
-    text-align:center;
-    font-size: 16px;               
-    display:flex;
-    justify-content:center;
     flex-direction:column;
 }
 
@@ -85,9 +45,8 @@ header, footer {
 nav {
     width:100%;
     margin:0 auto;
-    background-color:black;
+    background-color:#000;
     position:sticky; /* position permet de définir la position */
-    top:0px; /* top correspond au haut de la page */
     opacity: 0px; /* opacity sert à rendre transparent un élément */
 }
 
@@ -95,7 +54,6 @@ nav ul {
     list-style-type: none; /* list-style-type permet de définir l'apparence de la puce d'un élément de la liste */
     padding:0px; /* padding permet de définir les différents écarts de remplissage */
     margin:0px;
-    background-color:white;
 }
 
 nav li {
@@ -109,7 +67,7 @@ nav li {
 }
 
 nav li a {
-    color: black;
+    color:#000;
 }
 nav ul li {
     float:left; 
@@ -120,19 +78,19 @@ nav ul li {
 nav a {
     display:block;
     text-decoration:none;
-    color:black;
+    color:#000;
     border-bottom:2px solid transparent;
     padding:10px 0px;
 }
 
 nav a:hover {
-    border-bottom:2px solid royalblue;
+    border-bottom:2px solid #000;
 }
 
 #sous {     
     display:none;
     box-shadow:0px 1px 2px #CCC;
-    background-color: white;
+    background-color:#fff;
     
 }
 
@@ -157,35 +115,9 @@ nav > ul li:hover #sous {
     background-color:RGBa(200,200,200,0.1);
 }
 
-.ww1 {
-    width: 100%;
-    text-align: justify;
-    padding: 12px;
-    
-}
-
-.ww2 {
-    width: 100%;
-    text-align: justify;
-    padding: 12px;
-}
-
-.moderne {
-    width: 100%;
-    text-align: justify;
-    padding: 12px;
-}
-
-.conclusion {
-    width: 100%;
-    text-align: justify;
-    padding: 12px;
-}
-
-.présentationchars {
-    width: 100%;
-    padding: 12px;
-    text-align: justify;
+.char {
+    padding: 10px;
+    color:rgb(165, 177, 176);
 }
 
 form {
